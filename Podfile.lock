@@ -1,0 +1,62 @@
+PODS:
+  - Aspects (1.4.1)
+  - CRToast (0.0.9)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - GPUImage (0.1.7)
+  - KVNProgress (2.3.1)
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - pop (1.0.9)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - Shimmer (1.0.2)
+  - StreamingKit (0.1.29)
+  - TOMSMorphingLabel (0.5.1)
+  - YLGIFImage (0.11)
+  - ZCAnimatedLabel (0.0.4)
+
+DEPENDENCIES:
+  - Aspects (~> 1.4.1)
+  - CRToast (~> 0.0.7)
+  - FMDB (~> 2.5)
+  - GPUImage (~> 0.1.7)
+  - KVNProgress (~> 2.2.d)
+  - Masonry (~> 0.6.2)
+  - MBProgressHUD (~> 0.9.2)
+  - pop (~> 1.0)
+  - ReactiveCocoa (~> 2.5)
+  - SDWebImage (~> 3.7.3)
+  - Shimmer (~> 1.0.2)
+  - StreamingKit (~> 0.1.28)
+  - TOMSMorphingLabel (~> 0.5.1)
+  - YLGIFImage
+  - ZCAnimatedLabel (~> 0.0.4)
+
+SPEC CHECKSUMS:
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  CRToast: 5a78c22b921c5ed3487488af605bc403a9c92fed
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  KVNProgress: 8167b1f19e2758290c0b6143020ed9dcbb0477a1
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  StreamingKit: c329785aaef3ac142d4ae388345bfe1ed23cfd45
+  TOMSMorphingLabel: 3e88a2bf5257f8993ebc51fb3109187a0bfb2c4d
+  YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
+  ZCAnimatedLabel: 519b688bef4403fd356bc785f9b61cdfd8e6472d
+
+COCOAPODS: 0.39.0

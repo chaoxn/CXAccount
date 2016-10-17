@@ -10,29 +10,47 @@
 
 @interface HomeVC ()
 
+@property (weak, nonatomic) IBOutlet UIButton *addBtn;
+
 @end
 
 @implementation HomeVC
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
+}
+
+
+- (IBAction)NewExpendAction:(UIButton *)sender {
     
+    sender.selected = !sender.selected;
+    
+    if (sender.selected) {
+        [self showAnimatonWithSeleted:M_PI_4*3];
+    }else{
+        [self showAnimatonWithSeleted:0];
+    }
+    
+
     
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)showAnimatonWithSeleted:(CGFloat)Rotataion
+{
+    POPSpringAnimation *rotationAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerRotation];
+    rotationAnimation.beginTime = CACurrentMediaTime() + 0.1;
+    rotationAnimation.toValue = @(Rotataion);
+    rotationAnimation.springBounciness = 8;
+    rotationAnimation.springSpeed = 3;
+    rotationAnimation.dynamicsFriction = 12;
+    [_addBtn.layer pop_addAnimation:rotationAnimation forKey:@"rotationAnimation"];
+}
+
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

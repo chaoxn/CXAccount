@@ -16,6 +16,9 @@
 		EC777EBA1DAF6B5E00719482 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EC777EB81DAF6B5E00719482 /* HomeVC.m */; };
 		EC777EBB1DAF6B5E00719482 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC777EB91DAF6B5E00719482 /* HomeVC.xib */; };
 		EC9535A21DAF6E3600982AAF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9535A11DAF6E3600982AAF /* BaseViewController.m */; };
+		ECB58CAF1DB4BF44008F2E23 /* CXLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB58CAE1DB4BF44008F2E23 /* CXLineView.m */; };
+		ECB58CB31DB4C652008F2E23 /* CXNumberKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB58CB21DB4C652008F2E23 /* CXNumberKeyBoard.m */; };
+		ECB58CB51DB4CC2E008F2E23 /* CXNumberKeyBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECB58CB41DB4CC2E008F2E23 /* CXNumberKeyBoard.xib */; };
 		F8EEA9F4DB12A019FE2B4C64 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C4CB4F8250ED9476452D5A /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +53,11 @@
 		EC9535A11DAF6E3600982AAF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		EC9535A31DAF6E5C00982AAF /* CXMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CXMacro.h; sourceTree = "<group>"; };
 		EC9535A41DAF6E5C00982AAF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		ECB58CAD1DB4BF44008F2E23 /* CXLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXLineView.h; sourceTree = "<group>"; };
+		ECB58CAE1DB4BF44008F2E23 /* CXLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXLineView.m; sourceTree = "<group>"; };
+		ECB58CB11DB4C652008F2E23 /* CXNumberKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXNumberKeyBoard.h; sourceTree = "<group>"; };
+		ECB58CB21DB4C652008F2E23 /* CXNumberKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXNumberKeyBoard.m; sourceTree = "<group>"; };
+		ECB58CB41DB4CC2E008F2E23 /* CXNumberKeyBoard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CXNumberKeyBoard.xib; sourceTree = "<group>"; };
 		F29F5753CCE1FCF23CDCEBA5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +123,7 @@
 				EC777E881DAF69F700719482 /* AppDelegate.h */,
 				EC777E891DAF69F700719482 /* AppDelegate.m */,
 				EC777EAD1DAF6A8D00719482 /* ViewController */,
+				ECB58CAB1DB4BF44008F2E23 /* PublicViews */,
 				EC777EAA1DAF6A8D00719482 /* Expend */,
 				EC777EAB1DAF6A8D00719482 /* Resource */,
 				EC777EAC1DAF6A8D00719482 /* Vender */,
@@ -219,6 +228,34 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		ECB58CAB1DB4BF44008F2E23 /* PublicViews */ = {
+			isa = PBXGroup;
+			children = (
+				ECB58CB01DB4C643008F2E23 /* CXNumberKeyBoard */,
+				ECB58CAC1DB4BF44008F2E23 /* CXLineView */,
+			);
+			path = PublicViews;
+			sourceTree = "<group>";
+		};
+		ECB58CAC1DB4BF44008F2E23 /* CXLineView */ = {
+			isa = PBXGroup;
+			children = (
+				ECB58CAD1DB4BF44008F2E23 /* CXLineView.h */,
+				ECB58CAE1DB4BF44008F2E23 /* CXLineView.m */,
+			);
+			path = CXLineView;
+			sourceTree = "<group>";
+		};
+		ECB58CB01DB4C643008F2E23 /* CXNumberKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				ECB58CB11DB4C652008F2E23 /* CXNumberKeyBoard.h */,
+				ECB58CB21DB4C652008F2E23 /* CXNumberKeyBoard.m */,
+				ECB58CB41DB4CC2E008F2E23 /* CXNumberKeyBoard.xib */,
+			);
+			path = CXNumberKeyBoard;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -308,6 +345,7 @@
 				EC777E951DAF69F700719482 /* LaunchScreen.storyboard in Resources */,
 				EC777EBB1DAF6B5E00719482 /* HomeVC.xib in Resources */,
 				EC777E921DAF69F700719482 /* Assets.xcassets in Resources */,
+				ECB58CB51DB4CC2E008F2E23 /* CXNumberKeyBoard.xib in Resources */,
 				EC25056C1DAF719500B5DB22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +412,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECB58CB31DB4C652008F2E23 /* CXNumberKeyBoard.m in Sources */,
+				ECB58CAF1DB4BF44008F2E23 /* CXLineView.m in Sources */,
 				EC777EBA1DAF6B5E00719482 /* HomeVC.m in Sources */,
 				EC9535A21DAF6E3600982AAF /* BaseViewController.m in Sources */,
 				EC777E8A1DAF69F700719482 /* AppDelegate.m in Sources */,

@@ -11,29 +11,17 @@
 
 #import "BaseViewController.h"
 
-/*
-
-#import "SQL.h"
-#import "AFNetworking.h"
 #import "FMDB.h"
 #import "KVNProgress.h"
-#import "MJExtension.h"
-#import "MJRefresh.h"
 #import "Masonry.h"
 #import "ReactiveCocoa.h"
 #import "UIImageView+WebCache.h"
-#import "UINavigationBar+Awesome.h"
 #import "GPUImage.h"
 #import "Aspects.h"
 #import "POP/POP.h"
 #import "STKAudioPlayer.h"
 #import "CRToast/CRToast.h"
 #import "MBProgressHUD/MBProgressHUD.h"
-#import "ODRefreshControl.h"
-#import "SCCatWaitingHUD.h"
-#import "RACAFNetworking.h"
 #import "FBShimmeringView.h"
-
- */
  
 #endif

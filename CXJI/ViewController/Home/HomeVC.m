@@ -7,10 +7,12 @@
 //
 
 #import "HomeVC.h"
+#import "CXNumberKeyBoard.h"
 
 @interface HomeVC ()
 
 @property (weak, nonatomic) IBOutlet UIButton *addBtn;
+@property (nonatomic, strong) CXNumberKeyBoard *numberView;
 
 @end
 
@@ -19,6 +21,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    self.numberView = [[CXNumberKeyBoard alloc]init];
 }
 
 
@@ -28,11 +32,12 @@
     
     if (sender.selected) {
         [self showAnimatonWithSeleted:M_PI_4*3];
+        [_numberView show];
     }else{
         [self showAnimatonWithSeleted:0];
+        [_numberView dissMiss];
     }
     
-
     
 }
 

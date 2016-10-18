@@ -23,5 +23,7 @@
 #import "CRToast/CRToast.h"
 #import "MBProgressHUD/MBProgressHUD.h"
 #import "FBShimmeringView.h"
- 
+
+#import "CXMacro.h"
+
 #endif

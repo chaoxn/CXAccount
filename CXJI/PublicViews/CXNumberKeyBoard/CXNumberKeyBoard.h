@@ -10,4 +10,8 @@
 
 @interface CXNumberKeyBoard : UIView
 
+- (void)show;
+
+- (void)dissMiss;
+
 @end

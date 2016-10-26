@@ -54,11 +54,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Shimmer.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>StreamingKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -92,7 +87,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0D652DD7274290802F8AA2E8144371A7</key>
+		<key>1585D74171FFF69E0FF39FAD59526B7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>236E5D71AF0AE2FD75F5376D2EAE58C6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -102,27 +102,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>765CCCFA8702ED75D077631FFE9EF2E9</key>
+		<key>3103842A83FF00134649C8B2FD126A37</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>844FED59D4F161EF579948F0F53A4C0F</key>
+		<key>45A5FE499858C0E9230B584A60C814EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>92A17DFDE0C770105600A6311261E239</key>
+		<key>520E18B7912A5606C3DCE58FA926AFBB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9F297B6C52FFE34833895AA254497436</key>
+		<key>55CFD43D2FBA9BFECCC1D9A17F6C91DA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A39384153A27F9242514E323F2F8DB3C</key>
+		<key>80C82849E4CAEBF953DF196E006C7BEB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -137,12 +137,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C766897D56D8A815526A1B61D99EA0CA</key>
+		<key>C584774582E3CE634F599D69D5F088C8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C916D59686F4F822FD20BC87E6A84045</key>
+		<key>C766897D56D8A815526A1B61D99EA0CA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -152,17 +152,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E8E58DE1CE021A79356460BE27DC9FF3</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>EA0DD8ED489933744D70DD4A9719ED01</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F912DE638D502879FD9080302C85F36B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

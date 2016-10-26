@@ -19,7 +19,6 @@ PODS:
   - SDWebImage (3.7.6):
     - SDWebImage/Core (= 3.7.6)
   - SDWebImage/Core (3.7.6)
-  - Shimmer (1.0.2)
   - StreamingKit (0.1.29)
   - TOMSMorphingLabel (0.5.1)
   - YLGIFImage (0.11)
@@ -36,7 +35,6 @@ DEPENDENCIES:
   - pop (~> 1.0)
   - ReactiveCocoa (~> 2.5)
   - SDWebImage (~> 3.7.3)
-  - Shimmer (~> 1.0.2)
   - StreamingKit (~> 0.1.28)
   - TOMSMorphingLabel (~> 0.5.1)
   - YLGIFImage
@@ -53,7 +51,6 @@ SPEC CHECKSUMS:
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
-  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
   StreamingKit: c329785aaef3ac142d4ae388345bfe1ed23cfd45
   TOMSMorphingLabel: 3e88a2bf5257f8993ebc51fb3109187a0bfb2c4d
   YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae

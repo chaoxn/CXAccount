@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC011AAF1DC8804100CFD2E2 /* ProjectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC011AAD1DC8804100CFD2E2 /* ProjectCell.m */; };
+		EC011AB01DC8804100CFD2E2 /* ProjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC011AAE1DC8804100CFD2E2 /* ProjectCell.xib */; };
 		EC25056C1DAF719500B5DB22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC25056A1DAF719500B5DB22 /* Main.storyboard */; };
 		EC777E871DAF69F700719482 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC777E861DAF69F700719482 /* main.m */; };
 		EC777E8A1DAF69F700719482 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC777E891DAF69F700719482 /* AppDelegate.m */; };
@@ -35,6 +37,9 @@
 /* Begin PBXFileReference section */
 		A6C4CB4F8250ED9476452D5A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD6D7047D0EFD02C6611B73 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EC011AAC1DC8804100CFD2E2 /* ProjectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectCell.h; sourceTree = "<group>"; };
+		EC011AAD1DC8804100CFD2E2 /* ProjectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectCell.m; sourceTree = "<group>"; };
+		EC011AAE1DC8804100CFD2E2 /* ProjectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectCell.xib; sourceTree = "<group>"; };
 		EC25056B1DAF719500B5DB22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC777E821DAF69F700719482 /* CXJI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CXJI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC777E861DAF69F700719482 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -252,6 +257,9 @@
 				ECB58CB11DB4C652008F2E23 /* CXNumberKeyBoard.h */,
 				ECB58CB21DB4C652008F2E23 /* CXNumberKeyBoard.m */,
 				ECB58CB41DB4CC2E008F2E23 /* CXNumberKeyBoard.xib */,
+				EC011AAC1DC8804100CFD2E2 /* ProjectCell.h */,
+				EC011AAD1DC8804100CFD2E2 /* ProjectCell.m */,
+				EC011AAE1DC8804100CFD2E2 /* ProjectCell.xib */,
 			);
 			path = CXNumberKeyBoard;
 			sourceTree = "<group>";
@@ -347,6 +355,7 @@
 				EC777E921DAF69F700719482 /* Assets.xcassets in Resources */,
 				ECB58CB51DB4CC2E008F2E23 /* CXNumberKeyBoard.xib in Resources */,
 				EC25056C1DAF719500B5DB22 /* Main.storyboard in Resources */,
+				EC011AB01DC8804100CFD2E2 /* ProjectCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +425,7 @@
 				ECB58CAF1DB4BF44008F2E23 /* CXLineView.m in Sources */,
 				EC777EBA1DAF6B5E00719482 /* HomeVC.m in Sources */,
 				EC9535A21DAF6E3600982AAF /* BaseViewController.m in Sources */,
+				EC011AAF1DC8804100CFD2E2 /* ProjectCell.m in Sources */,
 				EC777E8A1DAF69F700719482 /* AppDelegate.m in Sources */,
 				EC777E871DAF69F700719482 /* main.m in Sources */,
 			);
@@ -555,6 +565,7 @@
 				DEVELOPMENT_TEAM = 72GN5UQFUF;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CXJI/Expend/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = CXJI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chaox.CXJI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -569,6 +580,7 @@
 				DEVELOPMENT_TEAM = 72GN5UQFUF;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CXJI/Expend/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = CXJI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chaox.CXJI;
 				PRODUCT_NAME = "$(TARGET_NAME)";

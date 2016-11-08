@@ -31,7 +31,7 @@
 
 @implementation CXNumberKeyBoard
 
-/*
+
 + (CXNumberKeyBoard *)share
 {
     static dispatch_once_t once = 0;
@@ -41,7 +41,7 @@
     
     return numberKey;
 }
-*/
+
 
 - (instancetype)init
 {

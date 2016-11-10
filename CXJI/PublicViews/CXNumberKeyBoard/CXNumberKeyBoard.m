@@ -31,7 +31,7 @@
 
 @implementation CXNumberKeyBoard
 
-
+/*
 + (CXNumberKeyBoard *)share
 {
     static dispatch_once_t once = 0;
@@ -41,7 +41,7 @@
     
     return numberKey;
 }
-
+*/
 
 - (instancetype)init
 {
@@ -163,8 +163,8 @@
 {
     UICollectionViewFlowLayout *flowLayout=[[UICollectionViewFlowLayout alloc] init];
     flowLayout.minimumInteritemSpacing = 10;
-    [flowLayout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
-        
+//    [flowLayout setScrollDirection:UICollectionViewScrollDirectionHorizontal];
+    
     self.collectionView.collectionViewLayout = flowLayout;
     
     self.collectionView.dataSource=self;
@@ -176,12 +176,12 @@
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 5;
+    return 6;
 }
 
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
 {
-    return 2;
+    return 3;
 }
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -194,6 +194,11 @@
     return cell;
 }
 
+- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
+{
+    return 1.f;
+}
+
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     return CGSizeMake(60, 60);
@@ -201,14 +206,13 @@
 
 -(UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
 {
-    return UIEdgeInsetsMake(0, 0, 0, 0);
+    return UIEdgeInsetsMake(1, 0, 1, 0);
 }
 
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section
 {
     return 1.f;
 }
-
 
 - (void)show
 {
